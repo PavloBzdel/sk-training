@@ -1,0 +1,12 @@
+@font-face{
+    font-family: Firstfonds;
+    src: url('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100 & display = swap')
+    font-weight: bold;
+}
+div{
+    color: green;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    text-align: justify;
+}
