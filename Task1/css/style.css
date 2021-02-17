@@ -1,0 +1,19 @@
+#one{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: crimson;
+    text-transform: uppercase;
+    
+}
+p::after{
+    content: "'";
+    font-family: 'Lato', sans-serif;
+    color: blue;
+    font-size: 35px;
+}
+p::before{
+    content: "'";
+    font-family: 'Lato', sans-serif;
+    color: blue;
+    font-size: 35px;
+}
