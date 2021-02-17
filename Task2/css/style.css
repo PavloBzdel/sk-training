@@ -1,0 +1,15 @@
+h1{
+font-size: 30px;
+font-family:'Times New Roman', Times, serif;
+}
+#apple{
+    color: palevioletred;
+    font-weight: bold;
+}
+#strawberries{
+    color: green;
+    font-style: italic;
+}
+:not(.class){
+    font-size: 50px;
+}

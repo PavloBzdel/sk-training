@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    
+}
+body{
+    text-align: center;
+}
+.header{
+    background-color: rgb(80, 177, 120);
+    height: 50px;
+}
+.nav{
+    background-color: rgb(4, 100, 1);
+    height: 40px;
+}
+.main{
+    display: flex;
+
+}
+#sidebar, #aside{
+    background-color: rgb(17, 127, 230);
+    height: 300px;
+    width: 20%;
+
+
+}
+#content{
+    background-color: rgb(109, 118, 240);
+    height: 300px;
+    width: 60%;
+    text-align: center;
+   
+}
+.footer{
+    background-color: rgb(20, 160, 39);
+    height: 30px;
+}
