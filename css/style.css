@@ -1,0 +1,73 @@
+div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    border: 5px solid gray;
+    border-radius: 10px;
+    box-shadow: 0 0 0 10px red,0 0 0 20px yellow;
+}
+    
+.text { 
+    font-size: 48px;
+    text-shadow: 5px 5px 5px gray;
+    transform: rotate(45deg);
+}
+
+.gradient{
+    background-image: linear-gradient(to right, red, yellow, gray);
+    transform-origin: top center;
+    transform: rotate(45deg) 
+}
+.box{
+    transform: translate(10px, 10px) rotate(6deg) scale(1,1) skew(10deg);
+}
+
+.boxone{
+    background-image: linear-gradient(to top right, yellow,brown,purple,blue);
+    transform-origin:  top center;
+    transform: rotate(50deg);
+    margin: 300px;
+    height: 300px;
+    box-shadow: none;
+    border: 1px solid gray;
+    
+}
+.anime{
+    transition: width 3s;
+}
+.anime:hover {
+    width: 400px;
+}
+@keyframes clr{
+   from{
+       background: red;
+   }
+   to{
+       background: goldenrod;
+   }
+}
+@keyframes clr2{
+   0%{
+    background: red;
+   }
+   25%{
+       background: rgb(214, 89, 89);
+   }
+   50%{
+       background: rgb(243, 156, 156);
+   }
+   100%{
+       background: rgb(90, 0, 0);
+   }
+ }
+
+.animation{
+    animation-name: clr2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+img{
+    filter: grayscale(70%);
+}
