@@ -1,0 +1,38 @@
+.red, .yellow, .green, .blue, .red1, .yellow1, .green1, .blue1{
+    border-width: 30px 30px 30px 30px;
+    border-color: black;
+    border-style: solid;
+    height: 1px;
+    width: 1px;
+    margin: 5px;
+}
+.red1, .yellow1, .green1, .blue1{
+    position: relative;
+    left: 80px;
+    top: -65px;
+    
+}
+.red{
+   border-color: transparent transparent red transparent;
+}
+.yellow{
+   border-color: transparent transparent yellow yellow;
+}
+.green{
+   border-color: transparent transparent transparent green;
+}
+.blue{
+   border-color: blue transparent transparent blue;
+}
+.red1{
+    border-color: red transparent transparent transparent;
+ }
+ .yellow1{
+    border-color: transparent yellow yellow transparent;
+ }
+ .green1{
+    border-color:  transparent green transparent transparent;
+ }
+ .blue1{
+    border-color: blue blue transparent transparent;
+ }
