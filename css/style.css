@@ -1,7 +1,7 @@
  /* --------------- TASK 1-------------------
     ------------------ */
 
-/* .container{
+.container1{
     background-color: cadetblue;
     display: grid;
     width: 700px;
@@ -24,18 +24,18 @@
     box-shadow: 2px 2px 2px black;
 
     }
-    .item-a{
+    .item-e{
         grid-column-start: 2;
         grid-column-end: five;
         grid-row-start: row1-start;
         grid-row-end: 3;
         border: 1px solid blue;
     }
-    .item-c{
+    .item-f{
         border: 1px solid red;
         grid-column: 3 /span 2;
         grid-row: third-line /4;
-    } */
+    }
 
     /* --------------- TASK 2 -------------------
     ------------------ */
