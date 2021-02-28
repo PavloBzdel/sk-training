@@ -1,10 +1,14 @@
 body{
+    align-items: center;
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
 
     font-size: 18px;
+    font-weight: 400;
     line-height: 1.6;
     color: #222;
+    background-color: #E5E5E5;
+    display: flex;
 }
 
 *,
@@ -17,10 +21,11 @@ body{
 ======================= */
 
 .container{
-    width: 100%;
+    width: 100%;    
     max-width: 1115px;
     margin: 0 auto;
 }
+
 
 /* Intro
 ======================= */
@@ -47,7 +52,7 @@ body{
 
 }
 
-.intro_social{
+.intro__social{
     position: absolute;
     width: 120px;
     height: 24px;
@@ -96,11 +101,6 @@ body{
 
 /* Nav
 ======================= */
-.nav{
-
-
-}
-
 .search{
     display: flex;
     position: absolute;
@@ -159,4 +159,225 @@ body{
     height: 450px;
     left: 885px;
     top: 1254px;
+}
+.button{
+    position: absolute;
+    left: 647px;
+    top: 1446px;
+}
+.img_button_play{
+    width: 65px;
+    height: 65px;
+}
+.img_button_play:hover{
+    border: 2px solid gray;
+    width: 75px;
+    height: 75px;
+}
+.content__text2{
+    position: absolute;
+    left: 125px;
+    top: 1750px;
+    width: 540px;
+    height: 87px;
+    font-weight: 400;
+  
+
+}
+.btn{
+    display: inline-block;
+    position: absolute;
+    left: 1075px;
+    top: 1750px;
+    width: 160px;
+    height: 50px;
+
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 3.5em;
+    
+   
+}
+.btn--orange{
+    background-color: #EF8E70;
+    
+}
+
+/* Awards
+======================= */
+.awards{
+    position: absolute;
+    left: 125px;
+    top: 1995px;
+    width: 1110px;
+    height: 375px;
+    border-top: 1px solid black;
+
+}
+.awards__logo{
+    position: absolute;
+    top: 67px;
+}
+.awards__tittle{
+    position: absolute;
+    left: 475px;
+    top: 67px;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+.awards__label{
+    position: absolute;
+    left: 760px;
+    top: 72px;
+
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.awards__text{
+    position: absolute;
+    left: 760px;
+    top: 97px;
+    height: 84px;
+    width: 230px;
+
+    text-align: left;
+    vertical-align: top;
+}
+.awards__paragrapgh{
+    font-size: 18px;
+    font-weight: 400;
+    fill: black;
+    opacity: 70%;
+
+}
+
+.awards__years{
+    position: absolute;
+    top: 65px;
+    left: 1050px;
+}
+.awards__tittle1{
+    position: absolute;
+    left: 475px;
+    top: 265px;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+.awards__label1{
+    position: absolute;
+    left: 760px;
+    top: 270px;
+
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+.awards__text1{
+    position: absolute;
+    left: 760px;
+    top: 297px;
+    height: 84px;
+    width: 230px;
+
+    text-align: left;
+    vertical-align: top;
+}
+.awards__paragrapgh1{
+    font-size: 18px;
+    font-weight: 400;
+    fill: black;
+    opacity: 70%;
+
+}
+.awards__years1{
+    position: absolute;
+    top: 265px;
+    left: 1050px;
+}
+/* Clients
+======================= */
+.clients{
+    position: absolute;
+    width: 1360px;
+    height: 480px;
+    left: 0px;
+    top: 2492px;
+    background-color: #FAFAFA;
+}
+.clients__title{
+    position: absolute;
+    left: 122px;
+    top: 102px;
+
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: -1px;
+
+}
+.clients__titletext{
+    position: absolute;
+    left: 457px;
+    top: 28px;
+    width: 444px;
+    height: 81px;
+}
+.clients__label{
+    position: absolute;
+    left: 790px;
+    top: 110px;
+    
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+}
+.clients__labeltext{
+    position: absolute;
+    left: 790px;
+    top: 146px;
+    width: 445px;
+    height: 56px;
+
+}
+.clients__nav{
+position: absolute;
+   top: 276px;
+}
+.clients__logo:hover{
+    background-color: black;
+    color: black;
+
+   
+}
+.mi:hover{
+   
+        
+}
+.mi{
+    position: absolute;
+    
+
+}
+.tinder{
+    position: absolute;
+    left: 275px;
+}
+.apple{
+    position: absolute;
+    left: 535px;
+}
+.nike{
+    position: absolute;
+    left: 760px;
+}
+.amd{
+    position: absolute;
+    left: 1055px;
 }
