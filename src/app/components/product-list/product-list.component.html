@@ -1,0 +1,11 @@
+<input type="text" placeholder="Input your Product" #name>
+<input type="text" placeholder="Input your Price" #price>
+<input type="button" value="Add new Product" (click)="addProduct(name.value, price.value)">
+
+<p>product-list works!</p>
+{{products | json}}
+
+<div *ngFor="let item of products">
+ {{item.name}}
+ {{item.price}}
+</div>
